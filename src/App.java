@@ -67,7 +67,7 @@ public class App {
                 }
             } while (opcion != 5);
         }
-    
+
         public static void nuevaIncidencia() {
             System.out.println("Ingrese la descripción de la incidencia:");
             String descripcion = scanner.nextLine();
@@ -138,15 +138,3 @@ public class App {
             }
         }
     }
-
-    public static void listapuesto() {
-        if (Puesto.listaPuestos.isEmpty()) {
-            System.out.println("No hay puestos registrados.");
-        } else {
-            System.out.println("\nListado de puestos:");
-            for (Puesto puesto : Puesto.listaPuestos) {
-                System.out.println(puesto.info()); // Esto usa el método toString() de la clase Puesto
-            }
-        }
-    }
-}
