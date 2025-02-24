@@ -1,0 +1,7 @@
+-- Crear tablas
+CREATE TABLE IF NOT EXISTS Pedidos (
+    CodigoPedido INT PRIMARY KEY,
+    FechaPedido DATE,
+    Estado VARCHAR(50),
+    CodigoCliente INT
+);
