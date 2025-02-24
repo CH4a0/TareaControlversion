@@ -40,6 +40,7 @@ public class App {
                 System.out.println("3. Detalles de incidencias");
                 System.out.println("4. Nuevo puesto");
                 System.out.println("5. Salir");
+                System.out.println("6. Salida de emergencia : ");
                 System.out.println("Elige opción");
                 opcion = scanner.nextInt();
                 scanner.nextLine(); // Limpiar el buffer
